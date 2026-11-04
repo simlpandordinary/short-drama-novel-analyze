@@ -21,18 +21,18 @@
 ├── README.upstream.md
 ├── SKILL.md
 ├── scripts/
-├── novel_index.py
-└── selftest.py
+│   ├── novel_index.py
+│   └── selftest.py
 ├── references/
-├── adaptation-triage.md
-├── adaptation-value.md
-├── aggregation-and-entities.md
-├── chapter-extraction.md
-└── stage-contract.md
+│   ├── adaptation-triage.md
+│   ├── adaptation-value.md
+│   ├── aggregation-and-entities.md
+│   ├── chapter-extraction.md
+│   └── stage-contract.md
 ├── assets/
-└── episode-candidate.example.jsonl
+│   └── episode-candidate.example.jsonl
 └── agents/
-└── openai.yaml
+    └── openai.yaml
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
